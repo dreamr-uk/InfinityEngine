@@ -36,7 +36,7 @@ public struct InfinityCollectionView {
     public let loadingHeight: CGFloat
     public let source: InfinityCollectionSourceable
     
-    public init(collectionView collectionView: UICollectionView, loadingHeight height: CGFloat, dataSource source: InfinityCollectionSourceable) {
+    public init(collectionView: UICollectionView, loadingHeight height: CGFloat, dataSource source: InfinityCollectionSourceable) {
         self.collectionView = collectionView
         self.loadingHeight = height
         self.source = source
